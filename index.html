@@ -18,17 +18,23 @@ html, body, #wrapper {
        text-align: center;
     }
 </style>
+    
+<script>
+var burn = new Audio();
+burn.src = "media/burnish.wav";
+</script>
+    
 </head>
    
 <body style="background-color:black; color:#FF00D8; font-size:xx-large">
 <table id="wrapper">
       <tr>
-         <td><img src="images/fire.gif"><br><font size="50">SUPA HOT FIRE</font><br><img src="images/lil_fire.gif"><img src="images/throne.jpg"><img src="images/lil_fire.gif"><br><font size="50">BUT I'M NOT A RAPPER</font><br><img src="images/fire.gif"></td>
+          <td><img src="images/fire.gif"><br><font size="50">SUPA HOT FIRE</font><br><img src="images/lil_fire.gif"><a href="#" onmousedown="burn.play()"><img src="images/throne.jpg"></a><img src="images/lil_fire.gif"><br><font size="50">BUT I'M NOT A RAPPER</font><br><img src="images/fire.gif"></td>
       </tr>
    </table>
    
     
-    <audio src="media/kakusei.mp3" preload="auto" autoplay loop />
+  <!--  <audio src="media/kakusei.mp3" preload="auto" autoplay loop />-->
  
     
 </body>
