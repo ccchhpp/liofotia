@@ -1,10 +1,8 @@
 <html>
     <link rel="stylesheet" type="text/css" href="style.css">
 
-<!--<audio controls autoplay>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="media/kakusei.mp3" type="audio/mpeg">
-</audio>-->
+<iframe src="media/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
 <head><style>
 html, body, #wrapper {
        height:100%;
@@ -38,7 +36,9 @@ burn.src = "media/burnish.wav";
    </table>
    
     
-  <audio src="media/kakusei.mp3" preload="auto" autoplay loop />
+  <audio id="player" autoplay loop>
+    <source src="media/kakusei.mp3" type="audio/mp3">
+</audio>
  
     
 </body>
