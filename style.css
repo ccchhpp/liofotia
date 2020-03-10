@@ -1,8 +1,9 @@
 body {background-color: black;}
-
+font-family: 'Meie Script', cursive;
 #main
 {
  text-align:middle;
  width:680px;
  font-size:70px;
+    
 }
